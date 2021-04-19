@@ -45,7 +45,7 @@ VALUES("Julius","Randle","1994-11-29", "New York Knicks", 'Kentucky', 1);
        
 ## NA for the school???       
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Goran","Dragic","19866-05-06", NA, 'Miami Heat', 3);
+VALUES("Goran","Dragic","19866-05-06", "Slovenia", 'Miami Heat', 3);
  
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
 VALUES("Jimmy","Butler","1989-09-14", "Marquette", 'Miami Heat', 1);
@@ -134,8 +134,8 @@ INSERT INTO DUser(firstName, lastName, username, password, email, dob)
 VALUES("Matthew", "Darling", "mdarling123", "Znisnjdf", "matt.darling@yahoo.com", "1995-05-12");
 
 
-INSERT INTO SeasonAverages(playedID,season,ppg,apg,rpg,spg,bpg)
-VALUES (1, "2003-04", 20.9, 5.9, 5.5,1.6, 0.7);
+INSERT INTO SeasonAverages(playedID, season, ppg, apg, rpg)
+VALUES (1, "2003-04", 20.9, 5.9, 5.5);
 
 INSERT INTO Rating(userID,playerID)
 VALUES(1,3);
