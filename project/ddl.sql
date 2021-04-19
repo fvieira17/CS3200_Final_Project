@@ -55,8 +55,6 @@ CREATE TABLE SeasonAverages
 	ppg int,
 	apg int,
 	rpg int,
-	spg int,
-	bpg int,
 	PRIMARY KEY(statID),
 	FOREIGN KEY(playerID), references Player (playerID);
 );
