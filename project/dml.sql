@@ -10,107 +10,106 @@ INSERT INTO Nation (nationName)
 VALUES ('Slovenia');
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("LeBron","James","1984-12-30", "Saint Vincent Saint Mary", 'Los Angeles Lakers', 1);
+VALUES("LeBron","James","1984-12-30", "Saint Vincent Saint Mary", 'Los Angeles Lakers',1);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Luka","Doncic","1999-02-28", "Real Madrid", 'Dallas Mavericks', 3);
+VALUES("Luka","Doncic","1999-02-28", "Real Madrid", 'Dallas Mavericks',3);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Anthony","Davis","1993-03-11", "Kentucky", 'Los Angeles Lakers', 1);
+VALUES("Anthony","Davis","1993-03-11", "Kentucky", 'Los Angeles Lakers',1);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Jamal","Murray","1997-02-23", "Kentucky", 'Denver Nuggets', 2);
+VALUES("Jamal","Murray","1997-02-23", "Kentucky", 'Denver Nuggets',2);
        
+INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
+VALUES("Kyle","Lowry","1986-03-25", "Villanova", "Toronto Raptors",2);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Kyle","Lowry","1986-03-25", "Villanova", "Toronto Raptors", 2);
+VALUES("Chris","Boucher","1993-01-11", "Oregon", "Toronto Raptors",1);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Chris","Boucher","1993-01-11", "Oregon", "Toronto Raptors", 1);
-
-INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Fred","VanVleet","1994-02-25", "Wichita State","Toronto Raptors",  1);
+VALUES("Fred","VanVleet","1994-02-25", "Wichita State","Toronto Raptors",1);
        
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Austin","Rivers","1992-08-01", 'Duke', "New York Knicks", 1);
+VALUES("Austin","Rivers","1992-08-01", 'Duke', "New York Knicks",1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Derrick","Rose","1998-10-04", 'Memphis', "New York Knicks", 1);
+VALUES("Derrick","Rose","1998-10-04", 'Memphis', "New York Knicks",1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Julius","Randle","1994-11-29", 'Kentucky', "New York Knicks", 1);
+VALUES("Julius","Randle","1994-11-29", 'Kentucky', "New York Knicks",1);
        
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Goran","Dragic","19866-05-06", "Slovenia", 'Miami Heat', 3);
+VALUES("Goran","Dragic","19866-05-06", "Slovenia", 'Miami Heat',3);
  
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Jimmy","Butler","1989-09-14", "Marquette", 'Miami Heat', 1);
+VALUES("Jimmy","Butler","1989-09-14", "Marquette", 'Miami Heat',1);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("KZ","Okpala","1999-04-28", "Stanford", 'Miami Heat', 1);
+VALUES("KZ","Okpala","1999-04-28", "Stanford", 'Miami Heat',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Trevor","Ariza","1985-06-30", "UCLA", 'Miami Heat', 1);
+VALUES("Trevor","Ariza","1985-06-30", "UCLA", 'Miami Heat',1);
        
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Jabari","Parker","1995-03-15", "Duke", 'Boston Celtics ', 1);
+VALUES("Jabari","Parker","1995-03-15", "Duke", 'Boston Celtics ',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Jayson","Tatum","1998-03-03", "Duke", 'Boston Celtics ', 1);
+VALUES("Jayson","Tatum","1998-03-03", "Duke", 'Boston Celtics ',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Kemba","Walker","1990-05-08", "Connecticut", 'Boston Celtics ', 1);
+VALUES("Kemba","Walker","1990-05-08", "Connecticut", 'Boston Celtics ',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Marcus","Smart","1994-03-06", "Oklahoma State", 'Boston Celtics ', 1);
+VALUES("Marcus","Smart","1994-03-06", "Oklahoma State", 'Boston Celtics ',1);
 
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Kevin","Durant","1988-09-29", "Texas", 'Brooklyn Nets', 1);
+VALUES("Kevin","Durant","1988-09-29", "Texas", 'Brooklyn Nets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Blake","Griffin","1989-03-166", "Oklahoma", 'Brooklyn Nets', 1);
+VALUES("Blake","Griffin","1989-03-166", "Oklahoma", 'Brooklyn Nets',1);
         
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("James","Harden","1989-08-26", "Arizona State", 'Brooklyn Nets', 1);
+VALUES("James","Harden","1989-08-26", "Arizona State", 'Brooklyn Nets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Jeff","Green","1986-08-28", "Georgetown", 'Brooklyn Nets', 1);
+VALUES("Jeff","Green","1986-08-28", "Georgetown", 'Brooklyn Nets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Kyrie","Irving","1992-03-23", "Duke", 'Brooklyn Nets', 1);
+VALUES("Kyrie","Irving","1992-03-23", "Duke", 'Brooklyn Nets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Joe","Harris","1991-09-06", "Virginia", 'Brooklyn Nets', 1);
+VALUES("Joe","Harris","1991-09-06", "Virginia", 'Brooklyn Nets',1);
     
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Malik","Monk","1998-02-04", "Kentucky", 'Charlotte Hornets', 1);
+VALUES("Malik","Monk","1998-02-04", "Kentucky", 'Charlotte Hornets',1);
         
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Nick","Richards","1997-11-29", "Kentucky", 'Charlotte Hornets', 1);
+VALUES("Nick","Richards","1997-11-29", "Kentucky", 'Charlotte Hornets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("PJ","Washington","1998-08-23", "Kentucky", 'Charlotte Hornets', 1);
+VALUES("PJ","Washington","1998-08-23", "Kentucky", 'Charlotte Hornets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Nate","Darling","1998-08-30", "Delaware", 'Charlotte Hornets', 1);
+VALUES("Nate","Darling","1998-08-30", "Delaware", 'Charlotte Hornets',1);
 
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("John","Collins","1997-09-23", "Wake Forest", 'Atlanta Hawks', 1);
+VALUES("John","Collins","1997-09-23", "Wake Forest", 'Atlanta Hawks',1);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Nathan","Knight","1997-09-20", "William & Marry", 'Atlanta Hawks', 1);
+VALUES("Nathan","Knight","1997-09-20", "William & Marry", 'Atlanta Hawks',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Tony","Snell","1991-11-10", "New Mexicco", 'Atlanta Hawks', 1);
+VALUES("Tony","Snell","1991-11-10", "New Mexicco", 'Atlanta Hawks',1);
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Trae","Young","1998-09-19", "Oklahoma", 'Atlanta Hawks', 1);
+VALUES("Trae","Young","1998-09-19", "Oklahoma", 'Atlanta Hawks',1);
        
        
 
@@ -131,38 +130,36 @@ VALUES("Johnson", "Wang", "johnsonw28", "123098Adj2", "Johnson.w@gmail.com", "19
 INSERT INTO DUser(firstName, lastName, username, password, email, dob)
 VALUES("Matthew", "Darling", "mdarling123", "Znisnjdf", "matt.darling@yahoo.com", "1995-05-12");
 
-
-# Current season stats for players in order 
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
 VALUES (1, "2020-21", 25.4, 7.9, 7.9);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 28.6, 7.9, 8.7);
+VALUES (2, "2020-21", 28.6, 7.9, 8.7);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 22.5, 8.4, 3.0);
+VALUES (3, "2020-21", 22.5, 8.4, 3.0);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 21.2, 4.0, 4.8);
+VALUES (4, "2020-21", 21.2, 4.0, 4.8);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 17.1, 5.5, 7.3);
+VALUES (5, "2020-21", 17.1, 5.5, 7.3);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 13.8, 6.7, 1.1);
+VALUES (6, "2020-21", 13.8, 6.7, 1.1);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 19.5, 4.2, 6.1);
+VALUES (7, "2020-21", 19.5, 4.2, 6.1);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 7.3, 2.2, 2.0);
+VALUES (8, "2020-21", 7.3, 2.2, 2.0);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 13.4, 2.2, 4.0);
+VALUES (9, "2020-21", 13.4, 2.2, 4.0);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 23.7, 10.5, 6.1);
+VALUES (10, "2020-21", 23.7, 10.5, 6.1);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 13.2, 3.4, 4.5);
+VALUES (11, "2020-21", 13.2, 3.4, 4.5);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 21.4, 7.2, 7.2);
+VALUES (12, "2020-21", 21.4, 7.2, 7.2);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 2.4, 1.9, 0.4);
+VALUES (13, "2020-21", 2.4, 1.9, 0.4);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 8.7, 4.2, 1.6);
+VALUES (14, "2020-21", 8.7, 4.2, 1.6);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 4.8, 2.5, 0.3);
+VALUES (15, "2020-21", 4.8, 2.5, 0.3);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
 VALUES (1, "2020-21", 26.0, 7.1, 4.2);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
@@ -197,7 +194,6 @@ INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
 VALUES (1, "2020-21", 5.5, 2.4, 1.3);
 INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
 VALUES (1, "2020-21", 25.4, 3.9, 9.5);
-
 
 INSERT INTO Rating(userID,playerID)
 VALUES(1,3);

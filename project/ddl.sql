@@ -3,10 +3,11 @@ CREATE DATABASE IF NOT EXISTS FinalProject;
 CREATE TABLE IF NOT EXISTS Nation
 (
 	nationID int NOT NULL AUTO_INCREMENT,
-	nationName VARCHAR(45) unique,
-	PRIMARY KEY (nationID),;
-)
+	nationName VARCHAR(45),
+	PRIMARY KEY (nationID)
+);
 
+DROP TABLE Player;
 CREATE TABLE IF NOT EXISTS Player
 (
 	playerID int NOT NULL AUTO_INCREMENT,
@@ -19,12 +20,12 @@ CREATE TABLE IF NOT EXISTS Player
 	'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs', 'Toronto Raptors',
 	'Utah Jazz', 'Washington Wizards'),
 	nationID int NOT NULL,
-	firtName VARCHAR(255),
+	firstName VARCHAR(255),
 	lastName VARCHAR(255),
 	dob DATE,
 	school VARCHAR(255),
-	PRIMARY KEY (playerID)
-	FOREIGN KEY (nationID), references Nation (nationID);
+	PRIMARY KEY (playerID),
+	FOREIGN KEY (nationID) REFERENCES Nation (nationID)
 );
 
 CREATE TABLE IF NOT EXISTS DUser
@@ -43,11 +44,11 @@ CREATE TABLE IF NOT EXISTS Rating
 	playerID int NOT NULL,
 	userID int NOT NULL,
 	PRIMARY KEY(playerID,userID),
-	FOREIGN KEY(userID), references DUser (userId) on delete cascade,
-	FOREIGN KEY(playerID), references Player (playerID) on delete cascade
+	FOREIGN KEY(userID) REFERENCES DUser (userId) on delete cascade,
+	FOREIGN KEY(playerID) REFERENCES Player (playerID) on delete cascade
 );
 
-CREATE TABLE SeasonAverages
+CREATE TABLE IF NOT EXISTS SeasonAverages
 (
 	statID int NOT NULL,
 	playerID int NOT NULL,
@@ -56,5 +57,5 @@ CREATE TABLE SeasonAverages
 	apg int,
 	rpg int,
 	PRIMARY KEY(statID),
-	FOREIGN KEY(playerID), references Player (playerID);
+	FOREIGN KEY(playerID) REFERENCES Player (playerID) on delete cascade
 );
