@@ -42,7 +42,7 @@ VALUES("Julius","Randle","1994-11-29", 'Kentucky', "New York Knicks",1);
        
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Goran","Dragic","19866-05-06", "Slovenia", 'Miami Heat',3);
+VALUES("Goran","Dragic","1986-05-06", "Slovenia", 'Miami Heat',3);
  
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
 VALUES("Jimmy","Butler","1989-09-14", "Marquette", 'Miami Heat',1);
@@ -71,7 +71,7 @@ INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
 VALUES("Kevin","Durant","1988-09-29", "Texas", 'Brooklyn Nets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
-VALUES("Blake","Griffin","1989-03-166", "Oklahoma", 'Brooklyn Nets',1);
+VALUES("Blake","Griffin","1989-03-16", "Oklahoma", 'Brooklyn Nets',1);
         
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
 VALUES("James","Harden","1989-08-26", "Arizona State", 'Brooklyn Nets',1);
@@ -97,7 +97,6 @@ VALUES("PJ","Washington","1998-08-23", "Kentucky", 'Charlotte Hornets',1);
        
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
 VALUES("Nate","Darling","1998-08-30", "Delaware", 'Charlotte Hornets',1);
-
 
 INSERT INTO Player (firstName, lastName, dob, school, team, nationID)
 VALUES("John","Collins","1997-09-23", "Wake Forest", 'Atlanta Hawks',1);
@@ -130,70 +129,70 @@ VALUES("Johnson", "Wang", "johnsonw28", "123098Adj2", "Johnson.w@gmail.com", "19
 INSERT INTO DUser(firstName, lastName, username, password, email, dob)
 VALUES("Matthew", "Darling", "mdarling123", "Znisnjdf", "matt.darling@yahoo.com", "1995-05-12");
 
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (1, "2020-21", 25.4, 7.9, 7.9);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (2, "2020-21", 28.6, 7.9, 8.7);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (3, "2020-21", 22.5, 8.4, 3.0);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (4, "2020-21", 21.2, 4.0, 4.8);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (5, "2020-21", 17.1, 5.5, 7.3);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (6, "2020-21", 13.8, 6.7, 1.1);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (7, "2020-21", 19.5, 4.2, 6.1);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (8, "2020-21", 7.3, 2.2, 2.0);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (9, "2020-21", 13.4, 2.2, 4.0);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (10, "2020-21", 23.7, 10.5, 6.1);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (11, "2020-21", 13.2, 3.4, 4.5);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (12, "2020-21", 21.4, 7.2, 7.2);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (13, "2020-21", 2.4, 1.9, 0.4);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (14, "2020-21", 8.7, 4.2, 1.6);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
 VALUES (15, "2020-21", 4.8, 2.5, 0.3);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 26.0, 7.1, 4.2);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 17.8, 3.9, 5.1);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 13.5, 3.3, 5.66);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 27.3, 6.7, 5.2);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 10.7, 4.9, 3.3);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 25.2, 8.0, 10.9);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 10.2, 3.7, 1.5);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 27.3, 4.8, 6.1);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 14.3, 3.6, 1.9);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 13.1, 2.7, 1.9);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 1.0, 0.6, 0.1);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 11.8, 6.4, 2.7);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 1.5, 0.2, 0.2);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 18.0, 7.6, 1.4);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 3.7, 2.0, 0.2);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 5.5, 2.4, 1.3);
-INSERT INTO SeasonAverages(playedID, season, ppg, rpg, apg)
-VALUES (1, "2020-21", 25.4, 3.9, 9.5);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (16, "2020-21", 26.0, 7.1, 4.2);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (17, "2020-21", 17.8, 3.9, 5.1);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (18, "2020-21", 13.5, 3.3, 5.66);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (19, "2020-21", 27.3, 6.7, 5.2);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (20, "2020-21", 10.7, 4.9, 3.3);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (21, "2020-21", 25.2, 8.0, 10.9);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (22, "2020-21", 10.2, 3.7, 1.5);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (23, "2020-21", 27.3, 4.8, 6.1);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (24, "2020-21", 14.3, 3.6, 1.9);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (25, "2020-21", 13.1, 2.7, 1.9);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (26, "2020-21", 1.0, 0.6, 0.1);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (27, "2020-21", 11.8, 6.4, 2.7);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (28, "2020-21", 1.5, 0.2, 0.2);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (29, "2020-21", 18.0, 7.6, 1.4);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (30, "2020-21", 3.7, 2.0, 0.2);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (31, "2020-21", 5.5, 2.4, 1.3);
+INSERT INTO SeasonAverages(playerID, season, ppg, rpg, apg)
+VALUES (32, "2020-21", 25.4, 3.9, 9.5);
 
 INSERT INTO Rating(userID,playerID)
 VALUES(1,3);
@@ -202,7 +201,35 @@ INSERT INTO Rating(userID,playerID)
 VALUES(1,4);
 
 INSERT INTO Rating(userID,playerID)
-VALUES(1,2);
+VALUES(1,25);
 
 INSERT INTO Rating(userID,playerID)
-VALUES(3,2);
+VALUES(2,19);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(2,1);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(3,1);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(3,6);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(3,16);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(4,13);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(4,20);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(4,21);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(5,16);
+
+INSERT INTO Rating(userID,playerID)
+VALUES(5,12);
+
