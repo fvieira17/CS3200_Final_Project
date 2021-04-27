@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS FinalProject;
+
 CREATE TABLE IF NOT EXISTS Nation
 (
 	nationID int NOT NULL AUTO_INCREMENT,
@@ -5,6 +7,7 @@ CREATE TABLE IF NOT EXISTS Nation
 	PRIMARY KEY (nationID)
 );
 
+DROP TABLE Player;
 CREATE TABLE IF NOT EXISTS Player
 (
 	playerID int NOT NULL AUTO_INCREMENT,
@@ -30,10 +33,9 @@ CREATE TABLE IF NOT EXISTS DUser
 	userID int NOT NULL AUTO_INCREMENT,
 	firstName VARCHAR(255),
 	lastName VARCHAR(255),
-    username VARCHAR(255),
 	password VARCHAR(255),
 	email VARCHAR(255) UNIQUE,
-    dob DATE,
+	address VARCHAR(255),
 	PRIMARY KEY(userID) 
 );
 
@@ -48,7 +50,7 @@ CREATE TABLE IF NOT EXISTS Rating
 
 CREATE TABLE IF NOT EXISTS SeasonAverages
 (
-	statID int NOT NULL AUTO_INCREMENT,
+	statID int NOT NULL,
 	playerID int NOT NULL,
 	season VARCHAR(45),
 	ppg int,
